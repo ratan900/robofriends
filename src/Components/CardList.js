@@ -2,7 +2,7 @@ import Card from "./Card";
 
 const CardList = ({ robots }) => {
   return (
-    <div className="flex flex-wrap">
+    <div className="tc flex flex-wrap">
       {robots.map((user, i) => {
         return (
           <Card
